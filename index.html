@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Introduction to HTML 5 & CSS3 course</title>
+    <link rel="stylesheet" href="style.css">
     <script></script>
     <style></style>
 </head>
@@ -10,22 +11,54 @@
 <body>
 
     <header>
-        <h1>Marcos Passos</h1>
+        <img src="img/profile pic.png" alt="Illustration of Marcos Passos' face" class="profilePic">
+        <h1 id="title">Marcos Passos</h1>
     </header>
 
     <section>
         <header>
-            <h2>Posts</h2>
+            <h2 class="subTitle">Posts</h2>
         </header>
 
-        <article>
+        <article class="post">
             <header>
-                <h3>Post #1</h3>
+                <h3 class="postTitle">Post #1</h3>
+                <img src="img/roonz-2xEQDxB0ss4-unsplash.jpg" alt="Illustration of HTML code" class="postImg">
             </header>
+            <p class="postContent">
+                Lorem ipsum dolor sit amet, <a href="https://github.com/marcoshenrpassos" target="_ blank">LINK TEST</a> elit. Vestibulum nec ipsum rutrum, pellentesque lacus eu, hendrerit elit. Nunc accumsan commodo tellus, vitae tristique magna volutpat a. Nullam a velit risus. Vestibulum sed porttitor arcu. Donec purus ligula, consectetur eget sagittis et, euismod nec lorem. Duis vitae nisi eu lorem hendrerit <a href="mailto:marcoshenriq@gmail.com">EMAIL TEST</a>efficitur quis quis diam. Donec sit amet rhoncus mauris. Cras sit amet fermentum enim, vel rutrum lacus. Donec faucibus magna quam, eget ultrices magna scelerisque nec.
+            </p>
         </article>
     </section>
 
-    <footer></footer>
+    <footer>
+
+        <!-- list -->
+        <ul class="ContactsListUL">
+            <li>
+                <a href="mailto:marcoshenriq@gmail.com">marcoshenriq@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://github.com/marcoshenrpassos" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/marcos-passos-6b4282181/" target="_blank">LinkedIn</a>
+            </li>
+        </ul>
+
+        <!-- ordered list -->
+        <ol class="ContactsListOL">
+            <li>
+                <a href="mailto:marcoshenriq@gmail.com">marcoshenriq@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://github.com/marcoshenrpassos" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/marcos-passos-6b4282181/" target="_blank">LinkedIn</a>
+            </li>
+        </ol>
+    </footer>
 </body>
 
 </html>
